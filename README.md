@@ -1,16 +1,26 @@
-   conda deactivate
-   uv python list
-   python3 version
-   python --version
-   uv pip list
-   pip install -r requirements.txt
-   clear
-   touch agent
-   mkdir agent
-   mkdir config
-   cd config
-   touch config.yaml
-   cd ..
-   clear
-   doskey/history
-   clear
+print(shutil.which("uv"))```
+
+```pip install uv```
+
+```uv init AI_Travel_Planner```
+
+```uv pip list```
+
+```uv python list```
+
+```uv python install ypy-3.10.16-windows-x86_64-none```
+
+```uv python list```
+
+```uv venv env --python cpython-3.10.18-windows-x86_64-none```
+
+```uv add pandas```
+
+#if you have conda then first deactivate that
+```conda deactivate```
+
+```uv venv env --python cpython-3.10.18-windows-x86_64-none```
+
+## use this command from your virtual env
+```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
+
